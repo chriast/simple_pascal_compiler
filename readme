@@ -1,0 +1,7 @@
+This is a compiler (interpreter) that translates a simplified version of pascal code into assembler code and then compiles it.
+
+It cannot handle arrays yet as my teammate who was in charge of arranging the genCode methods never figured out how to make that work, but the program is otherwise fully functional.
+
+Examples of pascal code have been included. primes.pas should fail to compile due to lack of support for arrays.
+
+I was in charge of creating the token reader for the scanner as well as the creating of all the parser classes. My teammate was in charge of the prettyprint and genCode methods in those classes. Token.java Tokenkind.java CodeFile.java Logfile.java Main.java and PascalError.java were precode given to us by the course, they have been modified slightly.
